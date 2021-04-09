@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[45]:
-
-
 import nltk, random, json
 from nltk.stem import WordNetLemmatizer
 import pickle
@@ -66,9 +60,6 @@ def chatbot_response(msg):
     return res
 
 
-# In[50]:
-
-
 #Creating GUI with tkinter
 import tkinter
 from tkinter import *
@@ -121,9 +112,6 @@ EntryBox.place(x=128, y=401, height=90, width=265)
 SendButton.place(x=6, y=401, height=90)
 
 base.mainloop()
-
-
-# In[ ]:
 
 
 
